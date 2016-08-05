@@ -1,0 +1,20 @@
+.what-i-do-option {
+  width: 15%;
+}
+
+.what-i-do-option .icon,
+.what-i-do-option .name,
+.what-i-do-option .description {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.what-i-do-option .icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+.what-i-do-option .name {
+  font-size: 1.25em;
+}

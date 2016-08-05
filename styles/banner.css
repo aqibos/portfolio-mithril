@@ -1,0 +1,53 @@
+* {
+  /*border: 1px solid red;*/
+}
+
+.banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner .logo {
+  height: 50px;
+  width: 50px;
+}
+
+.banner .title1 {
+  font-size: 5em;
+  margin-top: 50px;
+}
+
+.banner .title2 {
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+.banner .subtitle {
+  font-size: 1.25em;
+  margin-top: 20px;
+}
+
+.banner .quick-menu {
+  display: flex; 
+}
+
+.banner .option1, 
+.banner .option2,
+.banner .option3, 
+.banner .option4 {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 40px;
+  margin: 20px;
+  margin-top: 50px;
+  text-align: center;
+}

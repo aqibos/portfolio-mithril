@@ -1,0 +1,34 @@
+{
+  "name": "aqib-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio created in MithrilJS.",
+  "main": "route.js",
+  "scripts": {
+    "build-watch": "watchify -t babelify route.js -o bundle.js -v --list",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashah023/portfolio-mithril.git"
+  },
+  "keywords": [
+    "portfolio",
+    "aqib",
+    "shah",
+    "personal"
+  ],
+  "author": "Aqib Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashah023/portfolio-mithril/issues"
+  },
+  "homepage": "https://github.com/ashah023/portfolio-mithril#readme",
+  "dependencies": {
+    "browserify": "^13.1.0",
+    "express": "^4.14.0",
+    "faker": "^3.1.0",
+    "mithril": "^0.2.5",
+    "ramda": "^0.22.0",
+    "watchify": "^3.7.0"
+  }
+}

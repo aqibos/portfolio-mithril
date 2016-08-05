@@ -1,0 +1,23 @@
+.what-i-do {
+  text-align: center;
+}
+
+.what-i-do .title,
+.what-i-do .subtitle,
+.what-i-do .options {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.what-i-do .title {
+  font-size: 2.5em;
+}
+
+.what-i-do .subtitle {
+  font-size: 1.25em;
+}
+
+.what-i-do .options {
+  display: flex;
+  justify-content: space-around;
+}
